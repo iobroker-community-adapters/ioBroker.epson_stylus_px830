@@ -13,7 +13,7 @@
 
 :uk: This adapter reads the ink levels of an Epson Stylus Photo PX830 from the printers website
 
-![alt text](img/printer_website.jpg "Website of EPSON Stylus Photo PX830")
+![alt text](img/printer_website.png "Website of EPSON Stylus Photo PX830")
 
 ## Einstellungen / Configuration
 ### IP / Port
@@ -27,7 +27,7 @@
 :uk: In synctime you can choose the frequency of connections to the printer in minutes. Default is 180min, input is optional.
 
 ##  Datenpunkte / Datapoints
-![alt text](img/epson_stylus_px830SettingScreenshot.jpg "Screenshot Settings")
+![alt text](img/epson_stylus_px830SettingScreenshot.png "Screenshot Settings")
 
 ## Aktivierung / Schedule
 Der Adapter startet wie in den Einstellungen angegeben.
