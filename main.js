@@ -44,37 +44,37 @@ var ink = {
         'state': 'cyan',
         'name': 'Cyan',
         'cut':  'IMAGE/Ink_C.PNG" height=',
-        'cartrigde': 'T0802'    
+        'cartridge': 'T0802'    
     },
     'cyanlight' : {
         'state': 'cyanlight',
         'name': 'Cyan Light',
         'cut':  'IMAGE/Ink_LC.PNG" height=',
-        'cartrigde': 'T0805'    
+        'cartridge': 'T0805'    
     },
     'yellow' : {
         'state': 'yellow',
         'name': 'Yellow',
         'cut':  'IMAGE/Ink_Y.PNG" height=',
-        'cartrigde': 'T0804'    
+        'cartridge': 'T0804'    
     },
     'black' : {
         'state': 'black',
         'name': 'Black',
         'cut':  'IMAGE/Ink_K.PNG" height=',
-        'cartrigde': 'T0801'    
+        'cartridge': 'T0801'    
     },
     'magenta' : {
         'state': 'magenta',
         'name': 'Magenta',
         'cut':  'IMAGE/Ink_M.PNG" height=',
-        'cartrigde': 'T0803'    
+        'cartridge': 'T0803'    
     },
     'magentalight' : {
         'state': 'magentalight',
         'name': 'Magenta Light',
         'cut':  'IMAGE/Ink_LM.PNG" height=',
-        'cartrigde': 'T0806'    
+        'cartridge': 'T0806'    
     }
 };
 
@@ -187,6 +187,7 @@ function readPrinter() {
                 //adapter.log.debug(ink[i].name + ' Levelstring: ' + level_string + 'px');
                 var level = parseInt(level_string,10) * 100 / parseInt(baselevel,10);
                 adapter.setState('inks.' + ink[i].state + '.level', {val: level, ack: true});
+                adapter.setState('inks.' + ink[i].state + '.cartridge', {val: ink[i].cartridge, ack: true});
                 adapter.log.debug(ink[i].name + ' Level: ' + level + '%');
             } // end for
             
