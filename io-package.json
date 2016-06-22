@@ -1,0 +1,130 @@
+{
+    "common": {
+        "name": "epson_stylus_px830",
+        "title": "Epson Stylus PX830",
+        "desc": {
+            "en": "EPSON Stylus PX830 Ink Status",
+            "de": "EPSON Stylus PX830 Status Druckertinte ",
+            "ru": "EPSON Stylus PX830 Ink Status - translate to russian, please"
+        },
+        "version": "0.0.1",
+        "mode": "daemon",
+        "platform": "javascript/Node.js",
+        "loglevel": "debug",
+        "keywords": [
+            "printer",
+            "ink",
+            "Epson",
+            "Tinte",
+            "Drucker",
+            "pix",
+            "office"
+        ],
+        "main": "main.js",
+        "authors": [
+            "Pix"
+        ],
+        "license": "MIT",
+        "readme": "https://github.com/Pix---/ioBroker.epson_stylus_px830/blob/master/README.md",
+        "icon": "epson_stylus_px830.png",
+        "extIcon": "https://raw.githubusercontent.com/Pix---/ioBroker.epson_stylus_px830/master/admin/epson_stylus_px830.png",
+        "allowInit": true,
+        "type": "hardware",
+        "config": {
+            "width": 650,
+            "height": 500,
+            "minWidth": 650,
+            "minHeight": 450
+        }
+    },
+    "native": {
+    	"printerip" : "",
+    	"printerport" : "",
+    	"synctime" : ""
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "inks",
+            "type": "channel",
+            "common": {
+                "role": "",
+                "name": "Different inks of printer"
+            },
+            "native": {}
+        },
+        {
+            "_id":  "ip",
+            "type": "state",
+            "common": {
+                "name":  "Printer IP",
+                "desc":  "Printer IP adress",
+                "type":  "string",
+                "read":  true,
+                "write": false
+            },
+            "native": {}
+        },
+        {
+            "_id":  "mac",
+            "type": "state",
+            "common": {
+                "name":  "Printer MAC",
+                "desc":  "Printer MAC adress",
+                "type":  "string",
+                "read":  true,
+                "write": false
+            },
+            "native": {}
+        },
+        {
+            "_id":  "model",
+            "type": "state",
+            "common": {
+                "name":  "Printer Model",
+                "desc":  "Printer model type",
+                "type":  "string",
+                "read":  true,
+                "write": false
+            },
+            "native": {}
+        },
+        {
+            "_id":  "name",
+            "type": "state",
+            "common": {
+                "name":  "Printer Name",
+                "desc":  "Printer Name",
+                "type":  "string",
+                "read":  true,
+                "write": false
+            },
+            "native": {}
+        },
+        {
+            "_id":  "connect",
+            "type": "state",
+            "common": {
+                "name":  "Connection",
+                "desc":  "Connection",
+                "type":  "string",
+                "read":  true,
+                "write": false
+            },
+            "native": {}
+        },
+        {
+            "_id":  "UNREACH",
+            "type": "state",
+            "common": {
+                "name":  "Printer not connected",
+                "desc":  "is printer unreachable or not",
+                "type":  "boolean",
+                "def":   true,
+                "read":  true,
+                "write": false
+            },
+            "native": {}
+        }
+    ]
+}

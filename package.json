@@ -1,0 +1,54 @@
+{
+    "name": "iobroker.epson_stylus_px830",
+    "description": "Ink status of Epson Stylus PX830",
+    "version": "0.0.1",
+    "author": "pix",
+    "contributors": [
+        "pix"
+    ],
+    "homepage": "https://github.com/Pix---/ioBroker.epson_stylus_px830",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Pix---/ioBroker.epson_stylus_px830"
+    },
+    "license": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/Pix---/ioBroker.epson_stylus_px830/blob/master/LICENSE"
+        }
+    ],
+    "keywords": [
+        "ioBroker",
+        "hardware",
+        "office",
+        "printer",
+        "ink",
+        "epson",
+        "stylus",
+        "drucker",
+        "tinte",
+        "home automation"
+    ],
+    "dependencies": {
+        "request": "^2.72.0"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-replace": "^1.0.1",
+        "grunt-contrib-jshint": "^1.0.0",
+        "grunt-jscs": "^2.8.0",
+        "grunt-http": "^2.0.1",
+        "mocha": "^2.4.5",
+        "chai": "^3.5.0"
+    },
+    "bugs": {
+        "url": "https://github.com/Pix---/ioBroker.epson_stylus_px830/issues"
+    },
+    "main": "main.js",
+    "scripts": {
+        "test": "node node_modules/mocha/bin/mocha"
+    },
+    "maintainers": [
+        "pix"
+    ]
+}

@@ -1,0 +1,179 @@
+<html>
+
+<!-- these 4 files always have to be included -->
+<link rel="stylesheet" type="text/css" href="../../lib/css/themes/jquery-ui/redmond/jquery-ui.min.css"/>
+<link rel="stylesheet" type="text/css" href="../../lib/css/jquery.multiselect-1.13.css"/>
+
+<script type="text/javascript" src="../../lib/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../socket.io/socket.io.js"></script>
+<script type="text/javascript" src="../../lib/js/jquery-ui-1.10.3.full.min.js"></script>
+
+<!-- these two file always have to be included -->
+<link rel="stylesheet" type="text/css" href="../../css/adapter.css"/>
+<script type="text/javascript" src="../../js/translate.js"></script>
+<script type="text/javascript" src="../../js/adapter-settings.js"></script>
+
+<style>
+    #config {
+        font-size: smaller;	
+    }
+    .headline {
+    	padding-top: 20px;
+    	padding-left: 10px;
+    }
+    th {
+        padding-left: 10px;
+    	text-align: left;
+    }
+    .left {
+        width: 200px;
+    }
+    .left_sync {
+        width: 100px;
+    }
+    .mid {
+        width: 10px;
+    }
+    .right {
+        width: 100px;
+    }
+    .farright {
+        width: 100%;
+    }
+    .formatinput {
+        font-size: 30px;
+        font-family: courier;
+        text-align: left;
+    }
+    .inputlabel {
+        color: gray; 
+        font-style: italic; 
+        font-size: 120%;
+        padding-left: 10px;
+    }
+    .double {
+        font-size: 230%;
+        font-family: courier;
+    }
+    /* 
+    table {
+       border: 1px solid blue;
+    }
+    td {
+       border: 2px solid green;
+    } */
+</style>
+<!-- you have to define 2 functions in the global scope: -->
+<script type="text/javascript">
+	systemDictionary = {
+            "Epson Adapter settings": {
+                "en": "Epson Stylus PX830 Adapter settings",
+                "de": "Epson Stylus PX830 Adapter Einstellungen",
+                "ru": "Настройки Epson Stylus PX830 Adapter"
+            },
+            "Printer settings": {
+                "en": "Printer settings",
+                "de": "Drucker Einstellungen",
+                "ru": "Printer settings"
+            },
+            "IP": {
+                "en": "ip adress of printer",
+                "de": "IP Adresse des Druckers",
+                "ru": "Translate pls: ip adress of printer"
+            },
+            "Port": {
+                "en": "Port number",
+                "de": "Port Nummer",
+                "ru": "Translate pls: port number"
+            },
+            "Enter IP adress": {
+                "en": "Enter IP adress",
+                "de": "Drucker IP Addresse",
+                "ru": "Translate pls: Enter IP adress"
+            },
+            "normally no port setting is required": {
+                "en": "normally no port setting is required",
+                "de": "Die Eingabe der Portnummer ist nicht zwingend",
+                "ru": "Translate pls: normally no port setting is required"
+            },
+            "Synchronization": {
+                "en": "Synchronization",
+                "de": "Synchronisierung",
+                "ru": "Translate pls: Synchronization"
+            },
+            "default is 180": {
+                "en": "if left empty '180' will be used",
+                "de": "ohne Eingabe wird '180' verwendet",
+                "ru": "Translate pls: if left empty '180' will be used"
+            }
+    };
+
+    function load(settings, onChange) {
+        $('#printer_ip').val(settings.printerip).change(onChange);
+        $('#printer_port').val(settings.printerport).change(onChange);
+        $('#sync_time').val(settings.synctime).change(onChange);
+        
+        onChange(false);
+    }
+     
+    function save(callback) {
+        callback({
+            printerip: $('#printer_ip').val().trim(),
+            printerport: $('#printer_port').val().trim(),
+            synctime: $('#sync_time').val().trim()
+        }); 
+    }
+
+</script>
+
+<div id="adapter-container">
+    <table style="width: 100%">
+    	<tr>
+            <td><img src="epson_stylus_px830.png"></td>
+            <td class="headline"><h3 class="translate">Epson Adapter settings</h3></td>
+        </tr>
+    </table>
+    <h4 class="translate" style="width: calc(100% - 10px)">Printer settings</h4>
+    <table id="config" style="width: calc(100% - 5px)">
+        <tr>
+            <th class="translate">IP</th>
+            <th class="translate"></th>
+            <th class="translate">Port</th>
+            <th class="translate"></th>
+        </tr>
+        <tr>
+            <td class="left"><input id="printer_ip" pattern="[0-9]{1,2,3}+\.[0-9]{1,2,3}+\.[0-9]{1,2,3}+\.[0-9]{1,2,3}$" title="invalid input" placeholder="192.168.178.50" name="printer_ip_adress" type="text" class="value formatinput" size="15" maxlength="15" autocomplete="on" /></td>
+            <td class="mid"><span class="double">:</span></td>
+            <td class="right"><input id="printer_port" pattern="[0-9]{1,2,3,4,5}$" title="invalid input" placeholder="8000" name="printer_port" type="text" class="value formatinput" size="5" maxlength="5" autocomplete="off" /></td>
+            <td class="farright"></td>
+        </tr>
+        <tr>    
+            <td class="translate inputlabel">Enter IP adress</td>
+            <td></td>
+            <td class="translate inputlabel" >normally no port setting is required</td>
+            <td></td>
+        </tr>
+    </table>    
+    <h4 class="translate" style="width: calc(100% - 10px)">Synchronization</h4>
+    <table id="config" style="width: calc(100% - 5px)">
+        <tr>
+            <th class="translate">Synctime</th>
+            <th class="translate"></th>
+            <th class="translate"></th>
+            <th class="translate"></th>
+        </tr>
+        <tr>
+            <td class="left_sync"><input id="sync_time" pattern="[0-9]{1,2,3}$" title="invalid input" placeholder="180" name="synchronization" type="text" class="value formatinput" size="3" maxlength="3" autocomplete="off" /></td>
+            <td class="mid"><span class="double">min</span></td>
+            <td class="right"></td>
+            <td class="farright"></td>
+        </tr>
+        <tr>    
+            <td colspan="4" class="translate inputlabel">default is 180</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>  
+</div>
+</html>
