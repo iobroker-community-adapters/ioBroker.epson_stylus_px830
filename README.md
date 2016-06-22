@@ -27,7 +27,7 @@ Dauer zwischen den Abfragen des Druckers durch ioBroker. Die Eingabe ist optiona
 In synctime you can choose the frequency of connections to the printer in minutes. Default is 180min, input is optional.
 
 ##  Datenpunkte / Datapoints
-![alt text](img/epson_stylus_px830SettingScreenshot.png "Screenshot Settings")
+![alt text](img/epson_stylus_px830SettingScreenshot.jpg "Screenshot Settings")
 
 ## Aktivierung / Schedule
 Der Adapter startet wie in den Einstellungen angegeben.
