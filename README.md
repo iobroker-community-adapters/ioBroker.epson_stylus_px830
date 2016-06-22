@@ -17,14 +17,14 @@
 
 ## Einstellungen / Configuration
 ### IP / Port
-:de: Die IP Adresse des Druckers im lokalen Netzwerk. Ohne Eingabe gibt es keine Abfrage. Die Portnummer ist optional und wird nur bei Eingabe einer IP-Adresse berücksichtigt.
+Die IP Adresse des Druckers im lokalen Netzwerk. Ohne Eingabe gibt es keine Abfrage. Die Portnummer ist optional und wird nur bei Eingabe einer IP-Adresse berücksichtigt.
 
-:uk: IP adress of Epson Printer within local network. The adapter will stop if no IP is entered. The port number is optional and only will be considered if an ip adress was set before.
+IP adress of Epson Printer within local network. The adapter will stop if no IP is entered. The port number is optional and only will be considered if an ip adress was set before.
 
 ### Synchronisation
-:de: Dauer zwischen den Abfragen des Druckers durch ioBroker. Die Eingabe ist optional. Standard ist 180 Minuten (alle 3 Stunden).
+Dauer zwischen den Abfragen des Druckers durch ioBroker. Die Eingabe ist optional. Standard ist 180 Minuten (alle 3 Stunden).
 
-:uk: In synctime you can choose the frequency of connections to the printer in minutes. Default is 180min, input is optional.
+In synctime you can choose the frequency of connections to the printer in minutes. Default is 180min, input is optional.
 
 ##  Datenpunkte / Datapoints
 ![alt text](img/epson_stylus_px830SettingScreenshot.png "Screenshot Settings")
@@ -86,4 +86,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-*Dank an die Erfinder des Basisskripts zum Parsen der Daten, Idittmar und MistyReblaus aus dem Homematic-Forum.* :+1: 
+*Dank an die Erfinder des Basisskripts zum Parsen der Daten, Idittmar und MistyReblaus aus dem [http://homematic-forum.de/forum/viewtopic.php?f=31&t=25140](Homematic-Forum).* :+1: 
