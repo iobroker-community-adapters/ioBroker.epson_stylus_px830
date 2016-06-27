@@ -7,7 +7,7 @@
             "de": "EPSON Stylus PX830 Status Druckertinte ",
             "ru": "EPSON Stylus PX830 Ink Status - translate to russian, please"
         },
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mode": "daemon",
         "platform": "javascript/Node.js",
         "loglevel": "info",

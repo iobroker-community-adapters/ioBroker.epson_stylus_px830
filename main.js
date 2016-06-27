@@ -101,8 +101,8 @@ function readPrinter() {
 
     var name_cut = 'Druckername&nbsp;:&nbsp;',
         name_cut2 = 'Verbindungsstatus',
-        connect_cut = 'Verbindungsstatus',
-        connect_cut2 = 'IP-Adresse&nbsp;beziehen',
+        connect_cut = 'Verbindungsstatus&nbsp;:&nbsp;',
+        connect_cut2 = 'IP-Adresse beziehen',
         model_cut = '<title>',
         model_cut2 = '</title>',
         mac_cut = 'MAC-Adresse&nbsp;:&nbsp;',

@@ -38,15 +38,15 @@ The adapter starts as often as set up in the settings window.
 
 epson_stylus_px830.0.__UNREACH__ (*boolean*)
 
-epson_stylus_px830.0.__IP__(*string*)
-
-epson_stylus_px830.0.__connect__ (*string*)
+epson_stylus_px830.0.__connect__ (*string*) type of connection (WLAN,Eth)
 
 epson_stylus_px830.0.__name__  (*string*)
 
 epson_stylus_px830.0.__model__ (*string*)
 
 epson_stylus_px830.0.__mac__ (*string*)
+
+epson_stylus_px830.0.__IP__(*string*)
 
 epson_stylus_px830.0.__inks__ (*channel*)
 
@@ -65,6 +65,9 @@ Example set of widgets for VIS
 ```
 
 ## Changelog
+### 0.0.2 (2016-06-27)
+* (pix) fixed connection state
+
 ### 0.0.1 (2016-06-22)
 * (pix) first release
 
