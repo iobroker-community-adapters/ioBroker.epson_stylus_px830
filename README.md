@@ -1,10 +1,10 @@
 ![Logo](admin/epson_stylus_px830.png)
 # ioBroker.epson_stylus_px830
-=================
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.epson_stylus_px830.svg)](https://www.npmjs.com/package/iobroker.epson_stylus_px830)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.epson_stylus_px830.svg)](https://www.npmjs.com/package/iobroker.epson_stylus_px830)
 [![Tests](https://travis-ci.org/ioBroker/ioBroker.epson_stylus_px830.svg?branch=master)](https://travis-ci.org/ioBroker/ioBroker.epson_stylus_px830)
+[![Open Issues](http://githubbadges.herokuapp.com/Pix---/ioBroker.epson_stylus_px830/issues.svg)](http://github.com/Pix---/ioBroker.epson_stylus_px830/issues)
 
 [![NPM](https://nodei.co/npm/iobroker.epson_stylus_px830.png?downloads=true)](https://nodei.co/npm/iobroker.epson_stylus_px830/)
 
