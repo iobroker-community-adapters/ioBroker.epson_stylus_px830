@@ -29,7 +29,7 @@
         "icon": "epson_stylus_px830.png",
         "extIcon": "https://raw.githubusercontent.com/Pix---/ioBroker.epson_stylus_px830/master/admin/epson_stylus_px830.png",
         "allowInit": true,
-        "type": "hardware",
+        "type": "infrastructure",
         "config": {
             "width": 650,
             "height": 500,
@@ -38,9 +38,9 @@
         }
     },
     "native": {
-    	"printerip" : "",
-    	"printerport" : "",
-    	"synctime" : ""
+        "printerip": "",
+        "printerport": "",
+        "synctime": ""
     },
     "objects": [],
     "instanceObjects": [
@@ -54,74 +54,74 @@
             "native": {}
         },
         {
-            "_id":  "ip",
+            "_id": "ip",
             "type": "state",
             "common": {
-                "name":  "Printer IP",
-                "desc":  "Printer IP adress",
-                "type":  "string",
-                "read":  true,
+                "name": "Printer IP",
+                "desc": "Printer IP adress",
+                "type": "string",
+                "read": true,
                 "write": false
             },
             "native": {}
         },
         {
-            "_id":  "mac",
+            "_id": "mac",
             "type": "state",
             "common": {
-                "name":  "Printer MAC",
-                "desc":  "Printer MAC adress",
-                "type":  "string",
-                "read":  true,
+                "name": "Printer MAC",
+                "desc": "Printer MAC adress",
+                "type": "string",
+                "read": true,
                 "write": false
             },
             "native": {}
         },
         {
-            "_id":  "model",
+            "_id": "model",
             "type": "state",
             "common": {
-                "name":  "Printer Model",
-                "desc":  "Printer model type",
-                "type":  "string",
-                "read":  true,
+                "name": "Printer Model",
+                "desc": "Printer model type",
+                "type": "string",
+                "read": true,
                 "write": false
             },
             "native": {}
         },
         {
-            "_id":  "name",
+            "_id": "name",
             "type": "state",
             "common": {
-                "name":  "Printer Name",
-                "desc":  "Printer Name",
-                "type":  "string",
-                "read":  true,
+                "name": "Printer Name",
+                "desc": "Printer Name",
+                "type": "string",
+                "read": true,
                 "write": false
             },
             "native": {}
         },
         {
-            "_id":  "connect",
+            "_id": "connect",
             "type": "state",
             "common": {
-                "name":  "Connection",
-                "desc":  "Connection",
-                "type":  "string",
-                "read":  true,
+                "name": "Connection",
+                "desc": "Connection",
+                "type": "string",
+                "read": true,
                 "write": false
             },
             "native": {}
         },
         {
-            "_id":  "UNREACH",
+            "_id": "UNREACH",
             "type": "state",
             "common": {
-                "name":  "Printer not connected",
-                "desc":  "is printer unreachable or not",
-                "type":  "boolean",
-                "def":   true,
-                "read":  true,
+                "name": "Printer not connected",
+                "desc": "is printer unreachable or not",
+                "type": "boolean",
+                "def": true,
+                "read": true,
                 "write": false
             },
             "native": {}
