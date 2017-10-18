@@ -3,10 +3,12 @@
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.epson_stylus_px830.svg)](https://www.npmjs.com/package/iobroker.epson_stylus_px830)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.epson_stylus_px830.svg)](https://www.npmjs.com/package/iobroker.epson_stylus_px830)
-[![Tests](https://travis-ci.org/ioBroker/ioBroker.epson_stylus_px830.svg?branch=master)](https://travis-ci.org/ioBroker/ioBroker.epson_stylus_px830)
 [![Open Issues](http://githubbadges.herokuapp.com/Pix---/ioBroker.epson_stylus_px830/issues.svg)](http://github.com/Pix---/ioBroker.epson_stylus_px830/issues)
 
 [![NPM](https://nodei.co/npm/iobroker.epson_stylus_px830.png?downloads=true)](https://nodei.co/npm/iobroker.epson_stylus_px830/)
+
+**Tests:** Linux/Mac: [![Travis-CI](http://img.shields.io/travis/Pix---/ioBroker.epson_stylus_px830/master.svg)](https://travis-ci.org/Pix---/ioBroker.epson_stylus_px830)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Pix---/ioBroker.epson_stylus_px830?branch=master&svg=true)](https://ci.appveyor.com/project/Pix---/ioBroker-epson_stylus_px830/)
 
 ## Beschreibung / Description
 :de: Dieser Adapter liest den Zustand der Tintenpatronen eines Epson Stylus Photo PX830 von des Webseite ein
