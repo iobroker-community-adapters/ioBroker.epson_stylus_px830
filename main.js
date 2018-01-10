@@ -12,7 +12,7 @@ var baselevel = 50; // bedeutet: in der Webseite wird ein Balken von 100% Höhe 
 var link = '';
 var sync = 180;
 
-var adapter = utils.adapter({
+var adapter = utils.Adapter({
     name: 'epson_stylus_px830',
     systemConfig: true,
     useFormatDate: true,
