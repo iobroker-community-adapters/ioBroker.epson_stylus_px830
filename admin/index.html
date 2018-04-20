@@ -64,50 +64,11 @@
     } */
 </style>
 <!-- you have to define 2 functions in the global scope: -->
-<script type="text/javascript">
-	systemDictionary = {
-            "Epson Adapter settings": {
-                "en": "Epson Stylus PX830 Adapter settings",
-                "de": "Epson Stylus PX830 Adapter Einstellungen",
-                "ru": "Настройки Epson Stylus PX830 Adapter"
-            },
-            "Printer settings": {
-                "en": "Printer settings",
-                "de": "Drucker Einstellungen",
-                "ru": "Printer settings"
-            },
-            "IP": {
-                "en": "ip adress of printer",
-                "de": "IP Adresse des Druckers",
-                "ru": "Translate pls: ip adress of printer"
-            },
-            "Port": {
-                "en": "Port number",
-                "de": "Port Nummer",
-                "ru": "Translate pls: port number"
-            },
-            "Enter IP adress": {
-                "en": "Enter IP adress",
-                "de": "Drucker IP Addresse",
-                "ru": "Translate pls: Enter IP adress"
-            },
-            "normally no port setting is required": {
-                "en": "normally no port setting is required",
-                "de": "Die Eingabe der Portnummer ist nicht zwingend",
-                "ru": "Translate pls: normally no port setting is required"
-            },
-            "Synchronization": {
-                "en": "Synchronization",
-                "de": "Synchronisierung",
-                "ru": "Translate pls: Synchronization"
-            },
-            "default is 180": {
-                "en": "if left empty '180' will be used",
-                "de": "ohne Eingabe wird '180' verwendet",
-                "ru": "Translate pls: if left empty '180' will be used"
-            }
-    };
 
+<script type="text/javascript" src="words.js"></script>
+
+<script type="text/javascript">
+	
     function load(settings, onChange) {
         $('#printer_ip').val(settings.printerip).change(onChange);
         $('#printer_port').val(settings.printerport).change(onChange);

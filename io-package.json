@@ -2,15 +2,67 @@
     "common": {
         "name": "epson_stylus_px830",
         "title": "Epson Stylus PX830",
+        "titleLang": {
+            "en": "Epson Stylus PX830",
+            "de": "Epson Stylus PX830",
+            "ru": "Epson Stylus PX830",
+            "pt": "Epson Stylus PX830",
+            "nl": "Epson Stylus PX830",
+            "fr": "Epson Stylus PX830",
+            "it": "Epson Stylus PX830",
+            "es": "Epson Stylus PX830"
+        },
         "desc": {
             "en": "EPSON Stylus PX830 Ink Status",
-            "de": "EPSON Stylus PX830 Status Druckertinte ",
-            "ru": "EPSON Stylus PX830 Ink Status - translate to russian, please"
+            "de": "EPSON Stylus PX830 Tintenstatus",
+            "ru": "EPSON Stylus PX830 Состояние чернил",
+            "pt": "Status da tinta EPSON Stylus PX830",
+            "nl": "EPSON Stylus PX830 inktstatus",
+            "fr": "État de l'encre EPSON Stylus PX830",
+            "it": "Stato inchiostro EPSON Stylus PX830",
+            "es": "Estado de la tinta EPSON Stylus PX830",
+            "pl": "EPSON Stylus PX830 Status atramentu"
         },
-        "version": "0.0.2",
+        "docs": {
+            "en": "docs/en/doc_epson_stylus_px830_en.md",
+            "de": "docs/de/doc_epson_stylus_px830_de.md",
+            "ru": "docs/en/doc_epson_stylus_px830_en.md",
+            "pt": "docs/en/doc_epson_stylus_px830_en.md",
+            "nl": "docs/en/doc_epson_stylus_px830_en.md",
+            "fr": "docs/en/doc_epson_stylus_px830_en.md",
+            "it": "docs/en/doc_epson_stylus_px830_en.md",
+            "es": "docs/en/doc_epson_stylus_px830_en.md",
+            "pl": "docs/en/doc_epson_stylus_px830_en.md"
+        },
+        "version": "0.1.1",
+        "news": {
+            "0.1.1": {
+                "en": "Translations",
+                "de": "Übersetzungen",
+                "ru": "Переводы",
+                "pt": "Traduções",
+                "nl": "vertaalwerk",
+                "fr": "Traductions",
+                "it": "Traduzioni",
+                "es": "Traducciones",
+                "pl": "Tłumaczenia"
+              },
+              "0.1.0": {
+                "en": "Admin 3 ready",
+                "de": "Admin 3 bereit",
+                "ru": "Администратор 3 готов",
+                "pt": "Admin 3 pronto",
+                "nl": "Admin 3 klaar",
+                "fr": "Admin 3 prêt",
+                "it": "Admin 3 pronto",
+                "es": "Admin 3 listo",
+                "pl": "Gotowy administrator 3"
+              }
+        },
         "mode": "daemon",
         "platform": "javascript/Node.js",
         "loglevel": "info",
+        "materialize": true,
         "keywords": [
             "printer",
             "ink",
