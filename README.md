@@ -11,7 +11,7 @@
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Pix---/ioBroker.epson_stylus_px830?branch=master&svg=true)](https://ci.appveyor.com/project/Pix---/ioBroker-epson_stylus_px830/)
 
 ## Changelog
-### 0.1.0 (2018-04-20)
+### 0.1.1 (2018-04-20)
 * (pix) Translations to ru, pt, nl, fr, it, es and pl language
 
 ### 0.1.0 (2018-04-20)
