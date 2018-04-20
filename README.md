@@ -10,7 +10,31 @@
 **Tests:** Linux/Mac: [![Travis-CI](http://img.shields.io/travis/Pix---/ioBroker.epson_stylus_px830/master.svg)](https://travis-ci.org/Pix---/ioBroker.epson_stylus_px830)
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Pix---/ioBroker.epson_stylus_px830?branch=master&svg=true)](https://ci.appveyor.com/project/Pix---/ioBroker-epson_stylus_px830/)
 
+:de: [Dokumentation](/docs/de/doc_epson_stylus_px830_de.md)
+
+:uk: [Documentation](/docs/en/doc_epson_stylus_px830_en.md)
+
+:ru: [Документация](/docs/en/doc_epson_stylus_px830_en.md)
+
+:portugal: [Documentação](/docs/en/doc_epson_stylus_px830_en.md)
+
+:netherlands: [Documentatie](/docs/en/doc_epson_stylus_px830_en.md)
+
+:fr: [Documentation](/docs/en/doc_epson_stylus_px830_en.md)
+
+:it: [Documentazione](/docs/en/doc_epson_stylus_px830_en.md)
+
+:es: [Documentación](/docs/en/doc_epson_stylus_px830_en.md)
+
+:poland: [Dokumentacja](/docs/en/doc_epson_stylus_px830_en.md)
+
 ## Changelog
+<<<<<<< Updated upstream
+=======
+### 0.1.2 (2018-04-20)
+* (pix) Readme/Documentation structure
+
+>>>>>>> Stashed changes
 ### 0.1.1 (2018-04-20)
 * (pix) Translations to ru, pt, nl, fr, it, es and pl language
 

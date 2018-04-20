@@ -34,8 +34,19 @@
             "es": "docs/en/doc_epson_stylus_px830_en.md",
             "pl": "docs/en/doc_epson_stylus_px830_en.md"
         },
-        "version": "0.1.1",
+        "version": "0.1.2",
         "news": {
+            "0.1.2": {
+                "en": "Readme and Documentation structure",
+    	        "de": "Liesmich und Dokumentationsstruktur",
+    	        "ru": "Структура Readme и Documentation",
+    	        "pt": "Estrutura de Leia-me e Documentação",
+    	        "nl": "Readme en documentatie structuur",
+    	        "fr": "Lisez-moi et structure de documentation",
+    	        "it": "Struttura Leggimi e Documentazione",
+    	        "es": "Léame y estructura de documentación",
+    	        "pl": "Struktura Readme i Dokumentacja"
+            },
             "0.1.1": {
                 "en": "Translations",
                 "de": "Übersetzungen",
