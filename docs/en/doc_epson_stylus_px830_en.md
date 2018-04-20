@@ -1,4 +1,4 @@
-![Logo](admin/epson_stylus_px830.png)
+![Logo](../../admin/epson_stylus_px830.png)
 # ioBroker.epson_stylus_px830
 
 ## Description
