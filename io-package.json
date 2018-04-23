@@ -34,9 +34,9 @@
             "es": "docs/en/doc_epson_stylus_px830_en.md",
             "pl": "docs/en/doc_epson_stylus_px830_en.md"
         },
-        "version": "0.1.3",
+        "version": "0.1.4",
         "news": {
-            "0.1.3": {
+            "0.1.4": {
                 "en": "Settings window design",
                 "de": "Design des Einstellungsfensters",
                 "ru": "Дизайн окна настроек",
