@@ -34,8 +34,19 @@
             "es": "docs/en/doc_epson_stylus_px830_en.md",
             "pl": "docs/en/doc_epson_stylus_px830_en.md"
         },
-        "version": "0.1.2",
+        "version": "0.1.3",
         "news": {
+            "0.1.3": {
+                "en": "Settings window design",
+                "de": "Design des Einstellungsfensters",
+                "ru": "Дизайн окна настроек",
+                "pt": "Design da janela de configurações",
+                "nl": "Instellingen vensterontwerp",
+                "fr": "Configuration de la fenêtre de configuration",
+                "it": "Disegno della finestra delle impostazioni",
+                "es": "Diseño de ventana de configuración",
+                "pl": "Projekt okna ustawień"
+            },
             "0.1.2": {
                 "en": "Readme and Documentation structure",
     	        "de": "Liesmich und Dokumentationsstruktur",

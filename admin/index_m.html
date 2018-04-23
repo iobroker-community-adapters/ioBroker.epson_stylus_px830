@@ -1,138 +1,82 @@
 <html>
+    <!-- Materialze style -->
+    <head>
+        <link rel="stylesheet" type="text/css" href="../../css/adapter.css"/>
+        <link rel="stylesheet" type="text/css" href="../../lib/css/materialize.css">
 
-<link rel="stylesheet" type="text/css" href="../../css/adapter.css"/>
-<link rel="stylesheet" type="text/css" href="../../lib/css/materialize.css">
+        <script type="text/javascript" src="../../lib/js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../../socket.io/socket.io.js"></script>
 
-<script type="text/javascript" src="../../lib/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="../../socket.io/socket.io.js"></script>
-
-<script type="text/javascript" src="../../js/translate.js"></script>
-<script type="text/javascript" src="../../lib/js/materialize.js"></script>
-<script type="text/javascript" src="../../js/adapter-settings.js"></script>
-<script type="text/javascript" src="words.js"></script>
+        <script type="text/javascript" src="../../js/translate.js"></script>
+        <script type="text/javascript" src="../../lib/js/materialize.js"></script>
+        <script type="text/javascript" src="../../js/adapter-settings.js"></script>
+        <script type="text/javascript" src="words.js"></script>
 
 
-<style>
-    #config {
-        font-size: smaller;	
-    }
-    .headline {
-    	padding-top: 20px;
-    	padding-left: 10px;
-    }
-    th {
-        padding-left: 10px;
-    	text-align: left;
-    }
-    .left {
-        width: 200px;
-    }
-    .left_sync {
-        width: 100px;
-    }
-    .mid {
-        width: 10px;
-    }
-    .right {
-        width: 100px;
-    }
-    .farright {
-        width: 100%;
-    }
-    .formatinput {
-        font-size: 30px;
-        font-family: courier;
-        text-align: left;
-    }
-    .inputlabel {
-        color: gray; 
-        font-style: italic; 
-        font-size: 120%;
-        padding-left: 10px;
-    }
-    .double {
-        font-size: 230%;
-        font-family: courier;
-    }
-    /* 
-    table {
-       border: 1px solid blue;
-    }
-    td {
-       border: 2px solid green;
-    } */
-</style>
-<!-- you have to define 2 functions in the global scope: -->
+        <!-- you have to define 2 functions in the global scope: -->
+        <script type="text/javascript">
 
-<script type="text/javascript">
-	
-    function load(settings, onChange) {
-        $('#printer_ip').val(settings.printerip).change(onChange);
-        $('#printer_port').val(settings.printerport).change(onChange);
-        $('#sync_time').val(settings.synctime).change(onChange);
+            function load(settings, onChange) {
+                $('#printer_ip').val(settings.printerip).change(onChange);
+                $('#printer_port').val(settings.printerport).change(onChange);
+                $('#sync_time').val(settings.synctime).change(onChange);
         
-        onChange(false);
-    }
+                onChange(false);
+            }
      
-    function save(callback) {
-        callback({
-            printerip: $('#printer_ip').val().trim(),
-            printerport: $('#printer_port').val().trim(),
-            synctime: $('#sync_time').val().trim()
-        }); 
-    }
+            function save(callback) {
+                callback({
+                    printerip: $('#printer_ip').val().trim(),
+                    printerport: $('#printer_port').val().trim(),
+                    synctime: $('#sync_time').val().trim()
+                }); 
+            }
 
-</script>
-
-<div class="m adapter-container">
-    <!-- materialize einbauen -->
-    <table style="width: 100%">
-    	<tr>
-            <td><img src="epson_stylus_px830.png"></td>
-            <td class="headline"><h3 class="translate">Epson Adapter settings</h3></td>
-        </tr>
-    </table>
-    <h4 class="translate" style="width: calc(100% - 10px)">Printer settings</h4>
-    <table id="config" style="width: calc(100% - 5px)">
-        <tr>
-            <th class="translate">IP</th>
-            <th class="translate"></th>
-            <th class="translate">Port</th>
-            <th class="translate"></th>
-        </tr>
-        <tr>
-            <td class="left"><input id="printer_ip" pattern="[0-9]{1,2,3}+\.[0-9]{1,2,3}+\.[0-9]{1,2,3}+\.[0-9]{1,2,3}$" title="invalid input" placeholder="192.168.178.50" name="printer_ip_adress" type="text" class="value formatinput" size="15" maxlength="15" autocomplete="on" /></td>
-            <td class="mid"><span class="double">:</span></td>
-            <td class="right"><input id="printer_port" pattern="[0-9]{1,2,3,4,5}$" title="invalid input" placeholder="8000" name="printer_port" type="text" class="value formatinput" size="5" maxlength="5" autocomplete="off" /></td>
-            <td class="farright"></td>
-        </tr>
-        <tr>    
-            <td class="translate inputlabel">Enter IP adress</td>
-            <td></td>
-            <td class="translate inputlabel" >normally no port setting is required</td>
-            <td></td>
-        </tr>
-    </table>    
-    <h4 class="translate" style="width: calc(100% - 10px)">Synchronization</h4>
-    <table id="config" style="width: calc(100% - 5px)">
-        <tr>
-            <th class="translate">Synctime</th>
-            <th class="translate"></th>
-            <th class="translate"></th>
-            <th class="translate"></th>
-        </tr>
-        <tr>
-            <td class="left_sync"><input id="sync_time" pattern="[0-9]{1,2,3}$" title="invalid input" placeholder="180" name="synchronization" type="text" class="value formatinput" size="3" maxlength="3" autocomplete="off" /></td>
-            <td class="mid"><span class="double">min</span></td>
-            <td class="right"></td>
-            <td class="farright"></td>
-        </tr>
-        <tr>    
-            <td colspan="4" class="translate inputlabel">default is 180</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>  
-</div>
+        </script>
+        
+        <style>
+            .adapter-body {
+                overflow: hidden !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="m adapter-container">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s4">  <!-- statt s2 -->
+                            <a href="#tab-main" class="translate">Printer settings</a>
+                        </li><!-- weitere Tabs einfügen -->
+                    </ul>
+                </div>
+                <div id="tab-main" class="col s12 page">    
+                    <div class="col s6 m4 l2">
+                        <img src="epson_stylus_px830.png" class="logo">
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 m8 l6">        
+                            <div class="input-field col s12 m8 l6">
+                            <!-- <input id="printer_ip" pattern="[0-9]{1,2,3}+\.[0-9]{1,2,3}+\.[0-9]{1,2,3}+\.[0-9]{1,2,3}$" title="invalid input" placeholder="192.168.178.50" name="printer_ip_adress" type="text" class="value formatinput" size="15" maxlength="15" autocomplete="on" /> -->
+                            <input name="printer_ip_adress" type="text" id="printer_ip" class="value" />
+                            <label class="translate" for="homepilot_ip">IP</label><span class="translate">if left empty 'homepilot.local' will be used</span>
+                        </div>
+                        <div class="input-field col s12 m4 l3">
+                            <!-- <input id="printer_port" pattern="[0-9]{1,2,3,4,5}$" title="invalid input" placeholder="8000" name="printer_port" type="text" class="value formatinput" size="5" maxlength="5" autocomplete="off" /> -->
+			                <input name="printer_port" type="number" id="printer_port" class="value number" size="5" maxlength="5" />
+			                <label class="translate" for="homepilot_port">Port</label><span class="translate">normally no port setting is required</span>
+                         </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="input-field col s12 m2 l2">
+                            <!-- <input id="sync_time" pattern="[0-9]{1,2,3}$" title="invalid input" placeholder="180" name="synchronization" type="text" class="value formatinput" size="3" maxlength="3" autocomplete="off" />min -->
+                            <input name="synchronization" type="number" id="sync_time" class="value" size="3" maxlength="3" />
+                            <label class="translate" for="sync_time">Synctime</label>min (<span class="translate">default is 180</span>)
+                        </div>
+                    </div>
+                </div> <!-- Ende tab -->
+            </div>
+        </div>
+    </body>
 </html>
