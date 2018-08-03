@@ -22,7 +22,7 @@
                 $('#printer_ip').val(settings.printerip).change(onChange);
                 $('#printer_port').val(settings.printerport).change(onChange);
                 $('#sync_time').val(settings.synctime).change(onChange);
-        
+                M.updateTextFields();
                 onChange(false);
             }
      
