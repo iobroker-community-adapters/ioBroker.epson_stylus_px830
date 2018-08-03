@@ -29,6 +29,9 @@ Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Pix---/
 :poland: [Dokumentacja](/docs/en/doc_epson_stylus_px830_en.md)
 
 ## Changelog
+### 0.2.0 (2018-08-03)
+* (pix) 0.2.0 Material design complete. Minor issues fixed
+
 ### 0.1.4 (2018-04-23)
 * (pix) settings window design
 
