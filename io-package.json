@@ -34,8 +34,19 @@
             "es": "docs/en/doc_epson_stylus_px830_en.md",
             "pl": "docs/en/doc_epson_stylus_px830_en.md"
         },
-        "version": "0.1.4",
+        "version": "0.2.0",
         "news": {
+            "0.2.0": {
+                "en": "Material design complete. Minor issues fixed",
+                "de": "Material Design abgeschlossen. Kleinere Probleme behoben",
+                "ru": "Конструкция материала завершена. Исправлены незначительные проблемы",
+                "pt": "Material design completo. Pequenos problemas corrigidos",
+                "nl": "Materiaalontwerp voltooid. Kleine problemen opgelost",
+                "fr": "Conception du matériau terminée. Problèmes mineurs corrigés",
+                "it": "Design del materiale completato. Risolti problemi minori",
+                "es": "Diseño del material completo. Problemas menores corregidos",
+                "pl": "Opracowanie materiału zakończone. Naprawiono drobne problemy"
+            }
             "0.1.4": {
                 "en": "Settings window design",
                 "de": "Design des Einstellungsfensters",
