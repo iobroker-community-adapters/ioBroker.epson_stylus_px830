@@ -34,8 +34,19 @@
             "es": "docs/en/doc_epson_stylus_px830_en.md",
             "pl": "docs/en/doc_epson_stylus_px830_en.md"
         },
-        "version": "0.2.0",
+        "version": "0.2.1",
         "news": {
+            "0.2.1": {
+                "en": "Typo fixed",
+                "de": "Tippfehler behoben",
+                "ru": "Типовое фиксированное",
+                "pt": "Typo corrigido",
+                "nl": "Typo opgelost",
+                "fr": "Typo fixe",
+                "it": "Errore di battitura fisso",
+                "es": "Typo arreglado",
+                "pl": "Naprawiono literówkę"
+            },
             "0.2.0": {
                 "en": "Material design complete. Minor issues fixed",
                 "de": "Material Design abgeschlossen. Kleinere Probleme behoben",
