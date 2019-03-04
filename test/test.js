@@ -32,7 +32,7 @@ describe('epson_stylus_px830: test adapter', function() {
         }, 3000);
     });
 
-    it('epson_stylus_px830: feeds to be parsed', function (done) {
+/*    it('epson_stylus_px830: feeds to be parsed', function (done) {
         this.timeout(20000);
         states.getState('epson_stylus_px830.0.ip', function (err, fileName) {
             expect(err).to.be.not.ok;
@@ -56,7 +56,7 @@ describe('epson_stylus_px830: test adapter', function() {
             });
         });
     });
-    
+*/    
     after('epson_stylus_px830: Stop js-controller', function (done) {
         this.timeout(5000);
         setup.stopController(function () {
