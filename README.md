@@ -1,7 +1,7 @@
 ![Logo](admin/epson_stylus_px830.png)
 # ioBroker.epson_stylus_px830
 
-[![NPM version](http://img.shields.io/npm/v/iobroker.epson_stylus_px830.svg)](https://www.npmjs.com/package/iobroker.epson_stylus_px830)
+![Number of Installations](http://iobroker.live/badges/epson_stylus_px830-installed.svg) ![Number of Installations](http://iobroker.live/badges/epson_stylus_px830-stable.svg) [![NPM version](http://img.shields.io/npm/v/iobroker.epson_stylus_px830.svg)](https://www.npmjs.com/package/iobroker.epson_stylus_px830)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.epson_stylus_px830.svg)](https://www.npmjs.com/package/iobroker.epson_stylus_px830)
 [![Open Issues](http://githubbadges.herokuapp.com/Pix---/ioBroker.epson_stylus_px830/issues.svg)](http://github.com/Pix---/ioBroker.epson_stylus_px830/issues)
 
