@@ -3,7 +3,6 @@
 
 ![Number of Installations](http://iobroker.live/badges/epson_stylus_px830-installed.svg) ![Number of Installations](http://iobroker.live/badges/epson_stylus_px830-stable.svg) [![NPM version](http://img.shields.io/npm/v/iobroker.epson_stylus_px830.svg)](https://www.npmjs.com/package/iobroker.epson_stylus_px830)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.epson_stylus_px830.svg)](https://www.npmjs.com/package/iobroker.epson_stylus_px830)
-[![Open Issues](http://githubbadges.herokuapp.com/Pix---/ioBroker.epson_stylus_px830/issues.svg)](http://github.com/Pix---/ioBroker.epson_stylus_px830/issues)
 
 [![NPM](https://nodei.co/npm/iobroker.epson_stylus_px830.png?downloads=true)](https://nodei.co/npm/iobroker.epson_stylus_px830/)
 
@@ -65,7 +64,7 @@ Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Pix---/
 
 The MIT License (MIT)
 
-Copyright (c) 2018 pix
+Copyright (c) 2019 pix
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
