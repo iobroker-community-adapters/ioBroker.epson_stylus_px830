@@ -7,6 +7,7 @@
 [![NPM](https://nodei.co/npm/iobroker.epson_stylus_px830.png?downloads=true)](https://nodei.co/npm/iobroker.epson_stylus_px830/)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/827f4b69c4654bd9be86eef485f13b8e)](https://www.codacy.com/app/Pix---/ioBroker.epson_stylus_px830?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Pix---/ioBroker.epson_stylus_px830&amp;utm_campaign=Badge_Grade)
+[![Known Vulnerabilities](https://snyk.io/test/github/Pix---/ioBroker.epson_stylus_px830/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Pix---/ioBroker.epson_stylus_px830?targetFile=package.json)
 
 **Tests:** Linux/Mac: [![Travis-CI](http://img.shields.io/travis/Pix---/ioBroker.epson_stylus_px830/master.svg)](https://travis-ci.org/Pix---/ioBroker.epson_stylus_px830)
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Pix---/ioBroker.epson_stylus_px830?branch=master&svg=true)](https://ci.appveyor.com/project/Pix---/ioBroker-epson_stylus_px830/)
