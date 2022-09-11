@@ -121,9 +121,9 @@
             "Pix"
         ],
         "license": "MIT",
-        "readme": "https://github.com/Pix---/ioBroker.epson_stylus_px830/blob/master/README.md",
+        "readme": "https://github.com/iobroker-community-adapters/ioBroker.epson_stylus_px830/blob/master/README.md",
         "icon": "epson_stylus_px830.png",
-        "extIcon": "https://raw.githubusercontent.com/Pix---/ioBroker.epson_stylus_px830/master/admin/epson_stylus_px830.png",
+        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.epson_stylus_px830/master/admin/epson_stylus_px830.png",
         "allowInit": true,
         "type": "infrastructure",
         "config": {
