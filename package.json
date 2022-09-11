@@ -6,10 +6,10 @@
   "contributors": [
     "pix"
   ],
-  "homepage": "https://github.com/Pix---/ioBroker.epson_stylus_px830",
+  "homepage": "https://github.com/iobroker-community-adapters/ioBroker.epson_stylus_px830",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pix---/ioBroker.epson_stylus_px830"
+    "url": "https://github.com/iobroker-community-adapters/ioBroker.epson_stylus_px830"
   },
   "license": "MIT",
   "keywords": [
@@ -34,7 +34,7 @@
     "chai": "^4.1.2"
   },
   "bugs": {
-    "url": "https://github.com/Pix---/ioBroker.epson_stylus_px830/issues"
+    "url": "https://github.com/iobroker-community-adapters/ioBroker.epson_stylus_px830/issues"
   },
   "main": "main.js",
   "scripts": {
