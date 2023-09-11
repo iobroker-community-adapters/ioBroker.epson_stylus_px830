@@ -24,6 +24,9 @@
     "tinte",
     "home automation"
   ],
+  "engines": {
+    "node": ">=16"
+  },
   "dependencies": {
     "request": "^2.72.0",
     "@iobroker/adapter-core": "^2.6.8"
