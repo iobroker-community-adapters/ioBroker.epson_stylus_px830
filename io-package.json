@@ -128,6 +128,9 @@
             "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
         ],
         "materialize": true,
+        "dataSource": "poll",
+        "connectionType": "local",
+        "tier": 2,
         "dependencies": [
             {
               "js-controller": ">=5.0.19"
