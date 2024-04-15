@@ -1,241 +1,254 @@
 {
-    "common": {
-        "name": "epson_stylus_px830",
-        "version": "0.2.1",
-        "news": {
-            "0.2.1": {
-                "en": "Typo fixed",
-                "de": "Tippfehler behoben",
-                "ru": "Типовое фиксированное",
-                "pt": "Typo corrigido",
-                "nl": "Typo opgelost",
-                "fr": "Typo fixe",
-                "it": "Errore di battitura fisso",
-                "es": "Typo arreglado",
-                "pl": "Naprawiono literówkę"
-            },
-            "0.2.0": {
-                "en": "Material design complete. Minor issues fixed",
-                "de": "Material Design abgeschlossen. Kleinere Probleme behoben",
-                "ru": "Конструкция материала завершена. Исправлены незначительные проблемы",
-                "pt": "Material design completo. Pequenos problemas corrigidos",
-                "nl": "Materiaalontwerp voltooid. Kleine problemen opgelost",
-                "fr": "Conception du matériau terminée. Problèmes mineurs corrigés",
-                "it": "Design del materiale completato. Risolti problemi minori",
-                "es": "Diseño del material completo. Problemas menores corregidos",
-                "pl": "Opracowanie materiału zakończone. Naprawiono drobne problemy"
-            },
-            "0.1.4": {
-                "en": "Settings window design",
-                "de": "Design des Einstellungsfensters",
-                "ru": "Дизайн окна настроек",
-                "pt": "Design da janela de configurações",
-                "nl": "Instellingen vensterontwerp",
-                "fr": "Configuration de la fenêtre de configuration",
-                "it": "Disegno della finestra delle impostazioni",
-                "es": "Diseño de ventana de configuración",
-                "pl": "Projekt okna ustawień"
-            },
-            "0.1.2": {
-                "en": "Readme and Documentation structure",
-    	        "de": "Liesmich und Dokumentationsstruktur",
-    	        "ru": "Структура Readme и Documentation",
-    	        "pt": "Estrutura de Leia-me e Documentação",
-    	        "nl": "Readme en documentatie structuur",
-    	        "fr": "Lisez-moi et structure de documentation",
-    	        "it": "Struttura Leggimi e Documentazione",
-    	        "es": "Léame y estructura de documentación",
-    	        "pl": "Struktura Readme i Dokumentacja"
-            },
-            "0.1.1": {
-                "en": "Translations",
-                "de": "Übersetzungen",
-                "ru": "Переводы",
-                "pt": "Traduções",
-                "nl": "vertaalwerk",
-                "fr": "Traductions",
-                "it": "Traduzioni",
-                "es": "Traducciones",
-                "pl": "Tłumaczenia"
-              },
-              "0.1.0": {
-                "en": "Admin 3 ready",
-                "de": "Admin 3 bereit",
-                "ru": "Администратор 3 готов",
-                "pt": "Admin 3 pronto",
-                "nl": "Admin 3 klaar",
-                "fr": "Admin 3 prêt",
-                "it": "Admin 3 pronto",
-                "es": "Admin 3 listo",
-                "pl": "Gotowy administrator 3"
-              }
-        },
-        "titleLang": {
-            "en": "Epson Stylus PX830",
-            "de": "Epson Stylus PX830",
-            "ru": "Epson Stylus PX830",
-            "pt": "Epson Stylus PX830",
-            "nl": "Epson Stylus PX830",
-            "fr": "Epson Stylus PX830",
-            "it": "Epson Stylus PX830",
-            "es": "Epson Stylus PX830"
-        },
-        "desc": {
-            "en": "EPSON Stylus PX830 Ink Status",
-            "de": "EPSON Stylus PX830 Tintenstatus",
-            "ru": "EPSON Stylus PX830 Состояние чернил",
-            "pt": "Status da tinta EPSON Stylus PX830",
-            "nl": "EPSON Stylus PX830 inktstatus",
-            "fr": "État de l'encre EPSON Stylus PX830",
-            "it": "Stato inchiostro EPSON Stylus PX830",
-            "es": "Estado de la tinta EPSON Stylus PX830",
-            "pl": "EPSON Stylus PX830 Status atramentu"
-        },
-        "docs": {
-            "en": "docs/en/doc_epson_stylus_px830_en.md",
-            "de": "docs/de/doc_epson_stylus_px830_de.md",
-            "ru": "docs/en/doc_epson_stylus_px830_en.md",
-            "pt": "docs/en/doc_epson_stylus_px830_en.md",
-            "nl": "docs/en/doc_epson_stylus_px830_en.md",
-            "fr": "docs/en/doc_epson_stylus_px830_en.md",
-            "it": "docs/en/doc_epson_stylus_px830_en.md",
-            "es": "docs/en/doc_epson_stylus_px830_en.md",
-            "pl": "docs/en/doc_epson_stylus_px830_en.md"
-        },
-        "keywords": [
-            "printer",
-            "ink",
-            "Epson",
-            "Tinte",
-            "Drucker",
-            "pix",
-            "office"
-        ],
-        "licenseInformation": {
-            "license": "MIT",
-            "type": "free"
-        },
-        "platform": "javascript/Node.js",
-        "mode": "daemon",
-        "icon": "epson_stylus_px830.png",
-        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.epson_stylus_px830/master/admin/epson_stylus_px830.png",
-        "readme": "https://github.com/iobroker-community-adapters/ioBroker.epson_stylus_px830/blob/master/README.md",
-        "loglevel": "info",
-        "type": "infrastructure",
-        "enabled": true,
-        "authors": [
-            "Pix",
-            "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
-        ],
-        "materialize": true,
-        "dataSource": "poll",
-        "connectionType": "local",
-        "tier": 2,
-        "dependencies": [
-            {
-              "js-controller": ">=5.0.19"
-            }
-        ],
-        "globalDependencies": [
-            {
-              "admin": ">=6.13.16"
-            }
-        ],
-        "config": {
-            "width": 650,
-            "height": 500,
-            "minWidth": 650,
-            "minHeight": 450
-        }
+  "common": {
+    "name": "epson_stylus_px830",
+    "version": "0.3.0",
+    "news": {
+      "0.3.0": {
+        "en": "Adapter requires node.js >= 18 and js-controller >= 5 now\nDependencies have been updated",
+        "de": "Adapter benötigt node.js >= 18 und js-controller >= 5 jetzt\nAbhängigkeiten wurden aktualisiert",
+        "ru": "Адаптер требует node.js >= 18 и js-контроллер >= 5 сейчас\nЗависимость обновлена",
+        "pt": "Adapter requer node.js >= 18 e js-controller >= 5 agora\nAs dependências foram atualizadas",
+        "nl": "Voor adaptor zijn node.js < 18 en js-controller > Nu 5\nAfhankelijkheden zijn bijgewerkt",
+        "fr": "L'adaptateur nécessite node.js >= 18 et js-controller >= 5 maintenant\nLes dépendances ont été actualisées",
+        "it": "Adattatore richiede node.js >= 18 e js-controller >= 5 ora\nLe dipendenze sono state aggiornate",
+        "es": "Adaptador requiere node.js √≥= 18 y js-controller 5 ahora\nSe han actualizado las dependencias",
+        "pl": "Adapter wymaga node.js > = 18 i kontroler js- > = 5 teraz\nZaktualizowano zależności",
+        "uk": "Адаптер вимагає node.js >= 18 і js-controller >= 5 тепер\nЗалежність було оновлено",
+        "zh-cn": "适配器需要节点.js QQ18和js控制器 QQ 现在5号\n依赖关系已更新"
+      },
+      "0.2.1": {
+        "en": "Typo fixed",
+        "de": "Tippfehler behoben",
+        "ru": "Типовое фиксированное",
+        "pt": "Typo corrigido",
+        "nl": "Typo opgelost",
+        "fr": "Typo fixe",
+        "it": "Errore di battitura fisso",
+        "es": "Typo arreglado",
+        "pl": "Naprawiono literówkę"
+      },
+      "0.2.0": {
+        "en": "Material design complete. Minor issues fixed",
+        "de": "Material Design abgeschlossen. Kleinere Probleme behoben",
+        "ru": "Конструкция материала завершена. Исправлены незначительные проблемы",
+        "pt": "Material design completo. Pequenos problemas corrigidos",
+        "nl": "Materiaalontwerp voltooid. Kleine problemen opgelost",
+        "fr": "Conception du matériau terminée. Problèmes mineurs corrigés",
+        "it": "Design del materiale completato. Risolti problemi minori",
+        "es": "Diseño del material completo. Problemas menores corregidos",
+        "pl": "Opracowanie materiału zakończone. Naprawiono drobne problemy"
+      },
+      "0.1.4": {
+        "en": "Settings window design",
+        "de": "Design des Einstellungsfensters",
+        "ru": "Дизайн окна настроек",
+        "pt": "Design da janela de configurações",
+        "nl": "Instellingen vensterontwerp",
+        "fr": "Configuration de la fenêtre de configuration",
+        "it": "Disegno della finestra delle impostazioni",
+        "es": "Diseño de ventana de configuración",
+        "pl": "Projekt okna ustawień"
+      },
+      "0.1.2": {
+        "en": "Readme and Documentation structure",
+        "de": "Liesmich und Dokumentationsstruktur",
+        "ru": "Структура Readme и Documentation",
+        "pt": "Estrutura de Leia-me e Documentação",
+        "nl": "Readme en documentatie structuur",
+        "fr": "Lisez-moi et structure de documentation",
+        "it": "Struttura Leggimi e Documentazione",
+        "es": "Léame y estructura de documentación",
+        "pl": "Struktura Readme i Dokumentacja"
+      },
+      "0.1.1": {
+        "en": "Translations",
+        "de": "Übersetzungen",
+        "ru": "Переводы",
+        "pt": "Traduções",
+        "nl": "vertaalwerk",
+        "fr": "Traductions",
+        "it": "Traduzioni",
+        "es": "Traducciones",
+        "pl": "Tłumaczenia"
+      },
+      "0.1.0": {
+        "en": "Admin 3 ready",
+        "de": "Admin 3 bereit",
+        "ru": "Администратор 3 готов",
+        "pt": "Admin 3 pronto",
+        "nl": "Admin 3 klaar",
+        "fr": "Admin 3 prêt",
+        "it": "Admin 3 pronto",
+        "es": "Admin 3 listo",
+        "pl": "Gotowy administrator 3"
+      }
     },
-    "native": {
-        "printerip": "",
-        "printerport": "",
-        "synctime": ""
+    "titleLang": {
+      "en": "Epson Stylus PX830",
+      "de": "Epson Stylus PX830",
+      "ru": "Epson Stylus PX830",
+      "pt": "Epson Stylus PX830",
+      "nl": "Epson Stylus PX830",
+      "fr": "Epson Stylus PX830",
+      "it": "Epson Stylus PX830",
+      "es": "Epson Stylus PX830"
     },
-    "objects": [],
-    "instanceObjects": [
-        {
-            "_id": "inks",
-            "type": "channel",
-            "common": {
-                "role": "",
-                "name": "Different inks of printer"
-            },
-            "native": {}
-        },
-        {
-            "_id": "ip",
-            "type": "state",
-            "common": {
-                "name": "Printer IP",
-                "desc": "Printer IP adress",
-                "type": "string",
-                "read": true,
-                "write": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "mac",
-            "type": "state",
-            "common": {
-                "name": "Printer MAC",
-                "desc": "Printer MAC adress",
-                "type": "string",
-                "read": true,
-                "write": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "model",
-            "type": "state",
-            "common": {
-                "name": "Printer Model",
-                "desc": "Printer model type",
-                "type": "string",
-                "read": true,
-                "write": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "name",
-            "type": "state",
-            "common": {
-                "name": "Printer Name",
-                "desc": "Printer Name",
-                "type": "string",
-                "read": true,
-                "write": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "connect",
-            "type": "state",
-            "common": {
-                "name": "Connection",
-                "desc": "Connection",
-                "type": "string",
-                "read": true,
-                "write": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "UNREACH",
-            "type": "state",
-            "common": {
-                "name": "Printer not connected",
-                "desc": "is printer unreachable or not",
-                "type": "boolean",
-                "def": true,
-                "read": true,
-                "write": false
-            },
-            "native": {}
-        }
-    ]
+    "desc": {
+      "en": "EPSON Stylus PX830 Ink Status",
+      "de": "EPSON Stylus PX830 Tintenstatus",
+      "ru": "EPSON Stylus PX830 Состояние чернил",
+      "pt": "Status da tinta EPSON Stylus PX830",
+      "nl": "EPSON Stylus PX830 inktstatus",
+      "fr": "État de l'encre EPSON Stylus PX830",
+      "it": "Stato inchiostro EPSON Stylus PX830",
+      "es": "Estado de la tinta EPSON Stylus PX830",
+      "pl": "EPSON Stylus PX830 Status atramentu"
+    },
+    "docs": {
+      "en": "docs/en/doc_epson_stylus_px830_en.md",
+      "de": "docs/de/doc_epson_stylus_px830_de.md",
+      "ru": "docs/en/doc_epson_stylus_px830_en.md",
+      "pt": "docs/en/doc_epson_stylus_px830_en.md",
+      "nl": "docs/en/doc_epson_stylus_px830_en.md",
+      "fr": "docs/en/doc_epson_stylus_px830_en.md",
+      "it": "docs/en/doc_epson_stylus_px830_en.md",
+      "es": "docs/en/doc_epson_stylus_px830_en.md",
+      "pl": "docs/en/doc_epson_stylus_px830_en.md"
+    },
+    "keywords": [
+      "printer",
+      "ink",
+      "Epson",
+      "Tinte",
+      "Drucker",
+      "pix",
+      "office"
+    ],
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
+    "platform": "javascript/Node.js",
+    "mode": "daemon",
+    "icon": "epson_stylus_px830.png",
+    "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.epson_stylus_px830/master/admin/epson_stylus_px830.png",
+    "readme": "https://github.com/iobroker-community-adapters/ioBroker.epson_stylus_px830/blob/master/README.md",
+    "loglevel": "info",
+    "type": "infrastructure",
+    "enabled": true,
+    "authors": [
+      "Pix",
+      "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
+    ],
+    "materialize": true,
+    "dataSource": "poll",
+    "connectionType": "local",
+    "tier": 2,
+    "dependencies": [
+      {
+        "js-controller": ">=5.0.19"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=6.13.16"
+      }
+    ],
+    "config": {
+      "width": 650,
+      "height": 500,
+      "minWidth": 650,
+      "minHeight": 450
+    }
+  },
+  "native": {
+    "printerip": "",
+    "printerport": "",
+    "synctime": ""
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "inks",
+      "type": "channel",
+      "common": {
+        "role": "",
+        "name": "Different inks of printer"
+      },
+      "native": {}
+    },
+    {
+      "_id": "ip",
+      "type": "state",
+      "common": {
+        "name": "Printer IP",
+        "desc": "Printer IP adress",
+        "type": "string",
+        "read": true,
+        "write": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "mac",
+      "type": "state",
+      "common": {
+        "name": "Printer MAC",
+        "desc": "Printer MAC adress",
+        "type": "string",
+        "read": true,
+        "write": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "model",
+      "type": "state",
+      "common": {
+        "name": "Printer Model",
+        "desc": "Printer model type",
+        "type": "string",
+        "read": true,
+        "write": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "name",
+      "type": "state",
+      "common": {
+        "name": "Printer Name",
+        "desc": "Printer Name",
+        "type": "string",
+        "read": true,
+        "write": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "connect",
+      "type": "state",
+      "common": {
+        "name": "Connection",
+        "desc": "Connection",
+        "type": "string",
+        "read": true,
+        "write": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "UNREACH",
+      "type": "state",
+      "common": {
+        "name": "Printer not connected",
+        "desc": "is printer unreachable or not",
+        "type": "boolean",
+        "def": true,
+        "read": true,
+        "write": false
+      },
+      "native": {}
+    }
+  ]
 }
