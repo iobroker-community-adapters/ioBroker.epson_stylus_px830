@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "request": "^2.72.0",
-    "@iobroker/adapter-core": "^2.6.8"
+    "@iobroker/adapter-core": "^3.0.6"
   },
   "devDependencies": {
     "@alcalzone/release-script": "^3.7.0",
