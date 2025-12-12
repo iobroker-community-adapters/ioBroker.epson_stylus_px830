@@ -69,7 +69,7 @@
 
 The MIT License (MIT)
 
-Copyright (c) 2024 iobroker-community-adapters <iobroker-community-adapters@gmx.de>
+Copyright (c) 2024-2025 iobroker-community-adapters <iobroker-community-adapters@gmx.de>
 Copyright (c) 2022 pix
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
