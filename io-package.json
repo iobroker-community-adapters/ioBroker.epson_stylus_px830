@@ -128,7 +128,7 @@
       "license": "MIT",
       "type": "free"
     },
-    "platform": "javascript/Node.js",
+    "platform": "Javascript/Node.js",
     "mode": "daemon",
     "icon": "epson_stylus_px830.png",
     "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.epson_stylus_px830/master/admin/epson_stylus_px830.png",
@@ -153,13 +153,7 @@
       {
         "admin": ">=7.7.22"
       }
-    ],
-    "config": {
-      "width": 650,
-      "height": 500,
-      "minWidth": 650,
-      "minHeight": 450
-    }
+    ]
   },
   "native": {
     "printerip": "",
