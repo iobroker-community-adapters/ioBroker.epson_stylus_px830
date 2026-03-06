@@ -69,8 +69,5 @@
     "lint": "eslint -c eslint.config.mjs .",
     "translate": "translate-adapter",
     "release": "release-script"
-  },
-  "maintainers": [
-    "pix"
-  ]
+  }
 }
