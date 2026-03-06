@@ -122,6 +122,7 @@
     "dataSource": "poll",
     "connectionType": "local",
     "tier": 2,
+    "compact": false,
     "dependencies": [
       {
         "js-controller": ">=6.0.11"
