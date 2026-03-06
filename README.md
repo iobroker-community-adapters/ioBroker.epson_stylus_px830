@@ -31,8 +31,7 @@
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 0.4.0 (2026-03-06)
 - (iobroker-bot) Adapter requires node.js >= 20 now.
 - (copilot) Adapter requires admin >= 7.7.22 now
 - (copilot) Adapter requires js-controller >= 6.0.11 now
@@ -50,22 +49,6 @@
 
 ### 0.1.4 (2018-04-23)
 * (pix) settings window design
-
-### 0.1.2 (2018-04-20)
-* (pix) Readme/Documentation structure
-
-### 0.1.1 (2018-04-20)
-* (pix) Translations to ru, pt, nl, fr, it, es and pl language
-
-### 0.1.0 (2018-04-20)
-* (pix) Admin3 ready
-* (pix) Documentation
-
-### 0.0.2 (2016-06-27)
-* (pix) fixed connection state
-
-### 0.0.1 (2016-06-22)
-* (pix) first release
 
 ## ToDo
 * Nicer icon !
