@@ -38,17 +38,6 @@
         "es": "Diseño del material completo. Problemas menores corregidos",
         "pl": "Opracowanie materiału zakończone. Naprawiono drobne problemy"
       },
-      "0.1.4": {
-        "en": "Settings window design",
-        "de": "Design des Einstellungsfensters",
-        "ru": "Дизайн окна настроек",
-        "pt": "Design da janela de configurações",
-        "nl": "Instellingen vensterontwerp",
-        "fr": "Configuration de la fenêtre de configuration",
-        "it": "Disegno della finestra delle impostazioni",
-        "es": "Diseño de ventana de configuración",
-        "pl": "Projekt okna ustawień"
-      },
       "0.1.2": {
         "en": "Readme and Documentation structure",
         "de": "Liesmich und Dokumentationsstruktur",
@@ -70,19 +59,8 @@
         "it": "Traduzioni",
         "es": "Traducciones",
         "pl": "Tłumaczenia"
-      },
-      "0.1.0": {
-        "en": "Admin 3 ready",
-        "de": "Admin 3 bereit",
-        "ru": "Администратор 3 готов",
-        "pt": "Admin 3 pronto",
-        "nl": "Admin 3 klaar",
-        "fr": "Admin 3 prêt",
-        "it": "Admin 3 pronto",
-        "es": "Admin 3 listo",
-        "pl": "Gotowy administrator 3"
       }
-    },
+   },
     "titleLang": {
       "en": "Epson Stylus PX830",
       "de": "Epson Stylus PX830",
