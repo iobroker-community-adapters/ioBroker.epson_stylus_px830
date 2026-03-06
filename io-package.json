@@ -25,7 +25,9 @@
         "fr": "Typo fixe",
         "it": "Errore di battitura fisso",
         "es": "Typo arreglado",
-        "pl": "Naprawiono literówkę"
+        "pl": "Naprawiono literówkę",
+        "uk": "Виправлено друкарську помилку",
+        "zh-cn": "错别字已修复"
       },
       "0.2.0": {
         "en": "Material design complete. Minor issues fixed",
@@ -36,7 +38,9 @@
         "fr": "Conception du matériau terminée. Problèmes mineurs corrigés",
         "it": "Design del materiale completato. Risolti problemi minori",
         "es": "Diseño del material completo. Problemas menores corregidos",
-        "pl": "Opracowanie materiału zakończone. Naprawiono drobne problemy"
+        "pl": "Opracowanie materiału zakończone. Naprawiono drobne problemy",
+        "uk": "Матеріальний дизайн завершено. Дрібні проблеми виправлено",
+        "zh-cn": "材料设计完成。已修复小问题"
       },
       "0.1.2": {
         "en": "Readme and Documentation structure",
@@ -47,7 +51,9 @@
         "fr": "Lisez-moi et structure de documentation",
         "it": "Struttura Leggimi e Documentazione",
         "es": "Léame y estructura de documentación",
-        "pl": "Struktura Readme i Dokumentacja"
+        "pl": "Struktura Readme i Dokumentacja",
+        "uk": "Readme і структура документації",
+        "zh-cn": "自述文件和文档结构"
       },
       "0.1.1": {
         "en": "Translations",
@@ -58,9 +64,11 @@
         "fr": "Traductions",
         "it": "Traduzioni",
         "es": "Traducciones",
-        "pl": "Tłumaczenia"
+        "pl": "Tłumaczenia",
+        "uk": "Переклади",
+        "zh-cn": "翻译"
       }
-   },
+    },
     "titleLang": {
       "en": "Epson Stylus PX830",
       "de": "Epson Stylus PX830",
@@ -69,7 +77,10 @@
       "nl": "Epson Stylus PX830",
       "fr": "Epson Stylus PX830",
       "it": "Epson Stylus PX830",
-      "es": "Epson Stylus PX830"
+      "es": "Epson Stylus PX830",
+      "pl": "Epson Stylus PX830",
+      "uk": "Epson Stylus PX830",
+      "zh-cn": "爱普生手写笔 PX830"
     },
     "desc": {
       "en": "EPSON Stylus PX830 Ink Status",
@@ -80,7 +91,9 @@
       "fr": "État de l'encre EPSON Stylus PX830",
       "it": "Stato inchiostro EPSON Stylus PX830",
       "es": "Estado de la tinta EPSON Stylus PX830",
-      "pl": "EPSON Stylus PX830 Status atramentu"
+      "pl": "EPSON Stylus PX830 Status atramentu",
+      "uk": "Стан чорнила EPSON Stylus PX830",
+      "zh-cn": "EPSON Stylus PX830 墨水状态"
     },
     "docs": {
       "en": "docs/en/doc_epson_stylus_px830_en.md",
