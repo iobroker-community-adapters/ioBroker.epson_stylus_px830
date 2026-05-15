@@ -53,6 +53,8 @@
 ### 0.1.4 (2018-04-23)
 * (pix) settings window design
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## ToDo
 * Nicer icon !
 * ioBroker.Discovery support
