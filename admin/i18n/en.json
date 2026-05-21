@@ -1,0 +1,10 @@
+{
+  "Enter IP adress": "Enter IP adress",
+  "Epson Adapter settings": "Epson Stylus PX830 Adapter settings",
+  "IP": "ip adress of printer",
+  "Port": "Port number",
+  "Printer settings": "Printer settings",
+  "Synchronization": "Synchronization",
+  "default is 180": "if left empty '180' will be used",
+  "normally no port setting is required": "normally no port setting is required"
+}

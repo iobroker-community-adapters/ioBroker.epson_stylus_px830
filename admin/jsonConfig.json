@@ -1,0 +1,71 @@
+{
+  "i18n": true,
+  "type": "panel",
+  "items": {
+    "_adapterHeader": {
+      "type": "header",
+      "text": "Epson Adapter settings",
+      "size": 2,
+      "xs": 12,
+      "sm": 12,
+      "md": 12,
+      "lg": 12,
+      "xl": 12
+    },
+    "_printerHeader": {
+      "newLine": true,
+      "type": "header",
+      "text": "Printer settings",
+      "size": 3,
+      "xs": 12,
+      "sm": 12,
+      "md": 12,
+      "lg": 12,
+      "xl": 12
+    },
+    "printerip": {
+      "type": "text",
+      "label": "IP",
+      "help": "Enter IP adress",
+      "placeholder": "192.168.178.50",
+      "xs": 12,
+      "sm": 12,
+      "md": 7,
+      "lg": 6,
+      "xl": 5
+    },
+    "printerport": {
+      "type": "text",
+      "label": "Port",
+      "help": "normally no port setting is required",
+      "placeholder": "8000",
+      "xs": 12,
+      "sm": 12,
+      "md": 5,
+      "lg": 3,
+      "xl": 3
+    },
+    "_syncHeader": {
+      "newLine": true,
+      "type": "header",
+      "text": "Synchronization",
+      "size": 3,
+      "xs": 12,
+      "sm": 12,
+      "md": 12,
+      "lg": 12,
+      "xl": 12
+    },
+    "synctime": {
+      "type": "text",
+      "label": "Synctime",
+      "help": "default is 180",
+      "placeholder": "180",
+      "xs": 12,
+      "sm": 12,
+      "md": 4,
+      "lg": 3,
+      "xl": 2
+    }
+  }
+}

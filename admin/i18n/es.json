@@ -1,0 +1,10 @@
+{
+  "Enter IP adress": "Ingrese la dirección IP",
+  "Epson Adapter settings": "Configuración del adaptador Epson Stylus PX 830",
+  "IP": "dirección IP de la impresora",
+  "Port": "Número de puerto",
+  "Printer settings": "Configuración de la impresora",
+  "Synchronization": "Sincronización",
+  "default is 180": "si se deja en blanco, se usará '180'",
+  "normally no port setting is required": "normalmente no se requiere configuración de puerto"
+}
