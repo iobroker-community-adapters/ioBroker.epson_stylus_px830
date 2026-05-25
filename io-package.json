@@ -145,6 +145,9 @@
       "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
     ],
     "materialize": true,
+    "adminUI": {
+      "config": "json"
+    },
     "dataSource": "poll",
     "connectionType": "local",
     "tier": 2,
