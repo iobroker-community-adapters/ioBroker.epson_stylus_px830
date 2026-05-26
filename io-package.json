@@ -144,7 +144,6 @@
       "Pix",
       "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
     ],
-    "materialize": true,
     "dataSource": "poll",
     "connectionType": "local",
     "tier": 2,
@@ -158,7 +157,10 @@
       {
         "admin": ">=7.7.22"
       }
-    ]
+    ],
+    "adminUI": {
+      "config": "materialize"
+    }
   },
   "native": {
     "printerip": "",
